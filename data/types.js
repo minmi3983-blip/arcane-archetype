@@ -1,4 +1,4 @@
-const types = {
+window.types = {
   arile: {
     name: "アリレちゃんタイプ",
     x: 1,
