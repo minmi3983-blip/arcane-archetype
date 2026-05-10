@@ -25,6 +25,9 @@ const answerButtons = document.querySelectorAll("#answer-buttons button");
 const resultName = document.getElementById("result-name");
 const resultDescription = document.getElementById("result-description");
 
+const resultImage = document.getElementById("result-image");
+resultImage.src = result.image;
+
 // =====================
 // 診断開始
 // =====================
