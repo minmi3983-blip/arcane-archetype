@@ -1,4 +1,4 @@
-const questions = [
+window.questions = [
   {
     text: "雨の日の空気が好き",
     axis: null
