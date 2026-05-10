@@ -154,7 +154,7 @@ function determineType() {
 
   // 傾聴 × 没頭
   if (scoreX < 0 && scoreY < 0) {
-    return types.garp;
+    return types.galp;
   }
 
   // 保険
