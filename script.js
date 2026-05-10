@@ -26,6 +26,7 @@ const resultName = document.getElementById("result-name");
 const resultDescription = document.getElementById("result-description");
 
 const resultImage = document.getElementById("result-image");
+const resultCatchcopy = document.getElementById("result-catchcopy");
 
 // =====================
 // 診断開始
@@ -174,6 +175,8 @@ function showResult() {
   const result = determineType();
 
   resultName.textContent = result.name;
+  
+  resultCatchcopy.textContent = result.catchcopy;
 
   resultDescription.textContent = result.description;
 
