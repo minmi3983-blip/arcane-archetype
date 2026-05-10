@@ -1,27 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title>魔法使いタイプ診断</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="data/questions.js"></script>
+  <script src="data/types.js"></script>
+</head>
+
 <body>
 
+  <!-- スタート画面 -->
   <div id="start-screen">
+
     <h1>魔法使いタイプ診断</h1>
-    <button id="start-button">診断を始める</button>
+
+    <p>
+      15の質問から、
+      あなたの魔法使いタイプを診断します。
+    </p>
+
+    <button id="start-button">
+      診断を始める
+    </button>
+
   </div>
 
+  <!-- 質問画面 -->
   <div id="question-screen" style="display:none;">
+
     <p id="progress"></p>
 
     <h2 id="question-text"></h2>
 
     <div id="answer-buttons">
+
       <button data-score="1">1</button>
       <button data-score="2">2</button>
       <button data-score="3">3</button>
       <button data-score="4">4</button>
       <button data-score="5">5</button>
+
     </div>
+
+    <div id="answer-labels">
+
+      <span>当てはまらない</span>
+      <span>どちらでもない</span>
+      <span>当てはまる</span>
+
+    </div>
+
   </div>
 
+  <!-- 結果画面 -->
   <div id="result-screen" style="display:none;">
+
     <h2 id="result-name"></h2>
+
     <p id="result-description"></p>
+
   </div>
+
+  <script src="script.js"></script>
 
 </body>
+</html>
