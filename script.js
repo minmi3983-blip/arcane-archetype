@@ -26,7 +26,6 @@ const resultName = document.getElementById("result-name");
 const resultDescription = document.getElementById("result-description");
 
 const resultImage = document.getElementById("result-image");
-resultImage.src = result.image;
 
 // =====================
 // 診断開始
@@ -177,6 +176,8 @@ function showResult() {
   resultName.textContent = result.name;
 
   resultDescription.textContent = result.description;
+
+  resultImage.src = result.image;
 
   console.log("X:", scoreX);
   console.log("Y:", scoreY);
