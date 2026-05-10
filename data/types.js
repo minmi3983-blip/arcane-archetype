@@ -25,6 +25,7 @@ window.types = {
     y: 1,
     color: "#62d2a2",
     catchcopy: "周囲を支える調和の魔法使い",
+    image: "assets/images/types/harmo/harmo_portrait.png",
     description: "あなたは人の話を聞き、交流を支えるタイプ。安心感を与える存在です。"
   },
 
